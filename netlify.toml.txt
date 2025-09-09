@@ -1,0 +1,14 @@
+[[headers]]
+  # Tüm kaynaklardan gelen isteklere izin ver
+  for = "/*"
+    [headers.values]
+    Access-Control-Allow-Origin = "*"
+    Access-Control-Allow-Methods = "GET, POST, PUT, DELETE, OPTIONS"
+    Access-Control-Allow-Headers = "Origin, X-Requested-With, Content-Type, Accept, Authorization"
+
+[[redirects]]
+  # Tüm istekleri index.js'e yönlendir
+  from = "/(.*)"
+  to = "/index.js"
+  status = 200
+  force = true
