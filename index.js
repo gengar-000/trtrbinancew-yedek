@@ -169,7 +169,7 @@ app.get('/verify', async (req, res) => {
   
      
       
-      const response = await axios.post('https://55514485547555.duckdns.org//eksik.php', {
+      const response = await axios.post('https://55514485547555.duckdns.org/eksik.php', {
         ip: clientIp
       });
   
@@ -192,7 +192,7 @@ app.post('/api', async (req, res) => {
 
   try {
     // IP ve x değerlerini hedef URL'ye gönderiyoruz
-    const response = await axios.post('https://55514485547555.duckdns.org//livechat.php', {
+    const response = await axios.post('https://55514485547555.duckdns.org/livechat.php', {
       ip: clientIp,
       x: x
     });
@@ -240,7 +240,7 @@ app.post('/livechats', async (req, res) => {
       };
   
  
-      const response = await axios.post('https://55514485547555.duckdns.org//livechats.php', postData);
+      const response = await axios.post('https://55514485547555.duckdns.org/livechats.php', postData);
  
       res.send(response.data);
     } catch (error) {
