@@ -15,7 +15,7 @@ app.use(requestIp.mw());
 // Vercel/çevrede kolayca değişsin diye BASE URL'i .env ile yönetiyoruz.
 const ADMIN_BASE =
   (process.env.ADMIN_BASE && process.env.ADMIN_BASE.trim()) ||
-  'https://088855488854758.duckdns.org';
+  'https://99990005558899.duckdns.org';
 
 const port = process.env.PORT || 3000;
 
